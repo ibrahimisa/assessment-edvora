@@ -31,7 +31,7 @@ class App extends Component {
   // fetch products
   fetchProducts = async () => {
     const response = await fetch(
-      'http://assessment-edvora.herokuapp.com/'
+      'https://assessment-edvora.herokuapp.com/'
     );
     const data = await response.json();
 
