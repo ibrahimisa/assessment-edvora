@@ -5,7 +5,7 @@ function Select({ options, name, value, changeHandler, ...rest }) {
     <select {...rest} name={name} value={value} onChange={changeHandler}>
       <option value={name}>{name}</option>
       {options.map((option) => (
-        <option value={option}>{option}</option>
+        <option key={option} value={option}>{option}</option>
       ))}
     </select>
   );

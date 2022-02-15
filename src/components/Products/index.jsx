@@ -9,7 +9,7 @@ function Products({ products }) {
       <h3 className={styles.title}>Products</h3>
       <div className={styles.product_items_list_container}>
         {Object.entries(products).map(([productName, products]) => (
-          <ProductItemsList products={products} name={productName} />
+          <ProductItemsList key={productName} products={products} name={productName} />
         ))}
       </div>
     </div>

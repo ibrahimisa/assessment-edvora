@@ -13,8 +13,8 @@ function ProductItemsList({ name, products }) {
       <Scroll scrollElement={scrollContainer}>
         <div className={styles.products_list}>
           <div ref={scrollContainer} className={styles.scroll}>
-            {products.map((product) => (
-              <ProductItem product={product} />
+            {products.map((product, index) => (
+              <ProductItem key={index} product={product} />
             ))}
           </div>
         </div>
