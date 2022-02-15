@@ -1,0 +1,31 @@
+.container{
+  max-width: 95rem;
+}
+.title {
+  color: var(--color-0);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.divider {
+  margin: 0.6rem 0 1.2rem;
+  max-width: 95rem;
+}
+
+.products_list {
+  background: var(--color-500);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.scroll {
+  overflow-x: scroll;
+  display: flex;
+  gap: 2rem;
+  scrollbar-width: none; /* removes the scroll bar in firefox*/
+}
+
+.scroll::-webkit-scrollbar {
+  display: none; /* remove the scrol bar */
+}

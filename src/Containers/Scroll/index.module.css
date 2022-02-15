@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+}
+
+.arrow{
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    right: -3rem;
+    bottom: 9rem;
+}

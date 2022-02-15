@@ -1,0 +1,69 @@
+.item {
+  background: var(--color-300);
+  border-radius: 0.45rem;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  /* width: 21rem; */
+}
+
+.image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.5rem;
+}
+
+.details {
+  padding: .3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product_name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-0);
+}
+
+.brand_name {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--color-200);
+}
+
+.dollar_sign {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 0.35rem;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: var(--color-0);
+}
+
+.location {
+  font-size: 1.3rem;
+  color: var(--color-200);
+  font-weight: 400;
+}
+
+.date {
+  color: var(--color-200);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.date span {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.description {
+  grid-column: 1/-1;
+  font-size: 1.1rem;
+  color: var(--color-200);
+}

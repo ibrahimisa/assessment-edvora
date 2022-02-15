@@ -1,0 +1,31 @@
+.filters {
+  background: var(--color-500);
+  padding: 2.4rem 3rem 4.3rem;
+  border-radius: 1.5rem;
+  width: 22.8rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 300;
+  color: #a5a5a5;
+}
+
+.divider{
+  margin: 1.1rem 0 3.6rem;
+}
+
+.select{
+  font-size: 1.7rem;
+  width: 100%;
+  background: var(--color-300);
+  border-radius: .45rem;
+  border: none;
+  padding: .8rem 1.3rem;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.select:first-of-type, .select:last-of-type{
+  margin: 0;
+}
